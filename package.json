@@ -1,6 +1,7 @@
 {
   "name": "frontcloudcamp",
-  "homepage": "https://shadymount.github.io/test_form_frontcloud",
+  "homepage": "https://shadymount.github.io/test_form_frontcloud/build",
+  "repository": "git+https://github.com/ShadyMount/test_form_frontcloud",
   "version": "1.0.0",
   "description": "FrontCloudCamp test assignment",
   "main": "index.js",
