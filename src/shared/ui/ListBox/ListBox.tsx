@@ -17,7 +17,7 @@ interface ListBoxProps {
     items?: ListBoxItem[];
     value: string;
     defaultValue?: string;
-    onChange: <T extends string>(value: T) => void;
+    onChange: (value: string) => void;
     readOnly: boolean;
     label?: string;
     labelClassName?: string;

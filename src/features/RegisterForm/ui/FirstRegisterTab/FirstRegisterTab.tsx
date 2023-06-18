@@ -50,8 +50,8 @@ export const FirstRegisterTab: FC<FirstRegisterTabProps> = ({className, setCurre
         dispatch(registerFormActions.setSername(noSpecialChars))
     }
 
-    const onSexChange = (newSex: Sex) => {
-        dispatch(registerFormActions.setSex(newSex))
+    const onSexChange = (newSex: string) => {
+        dispatch(registerFormActions.setSex(newSex as Sex))
     }
     const toNextTabHandler = () => {
         if(name && sername && sex && nickname) {
@@ -105,7 +105,7 @@ export const FirstRegisterTab: FC<FirstRegisterTabProps> = ({className, setCurre
                 readOnly={false}
                 elementId={'field-id'}
                 label={'Sex'}
-                value={sex as String}
+                value={sex as string}
                 defaultValue={'Не выбрано'}
                 SelectIcon={<Icon Svg={SelectIcon} />}
             />
