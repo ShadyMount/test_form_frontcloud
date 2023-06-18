@@ -1,0 +1,46 @@
+.ListBox {
+    position: relative;
+}
+
+.button {
+    background: var(--input-bg);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    outline: none;
+    caret-color: var(--primary-color);
+    color: var(--primary-color);
+
+    svg {
+        margin-left: 16px;
+    }
+}
+
+.trigger {
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options {
+    position: absolute;
+    z-index: 10000;
+    background: var(--input-bg);
+    min-width: 100%;
+    list-style: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.item {
+    padding: 10px 20px;
+}
+
+.active {
+    background: var(--inverted-primary-color);
+    border-radius: 4px;
+}
+
+.disabled {
+    opacity: 0.7;
+}

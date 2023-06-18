@@ -1,0 +1,96 @@
+.Tabs {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.tabList {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.tabListLineContainer {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    border-radius: 8px;
+    top: 4px;
+    background-color: black;
+    opacity: 0.08;
+    z-index: 9000;
+}
+
+.tabListLine {
+    position: absolute;
+    height: 8px;
+    border-radius: 8px;
+    top: 4px;
+    background-color: var(--secondary-color);
+    z-index: 9001;
+}
+
+.tabIndActive{
+    position: absolute;
+    top: 28px;
+    color: var(--secondary-color);
+}
+
+.tabInd{
+    position: absolute;
+    top: 28px;
+    color: var(--inverted-bg-color);
+}
+
+.tabActive {
+    position: relative;
+    z-index: 10000;
+    border-radius: 100px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+.tabPanels {
+    width: 100%;
+}
+.tabPanel {
+    width: 100%;
+}
+
+.tab{
+    position: relative;
+    z-index: 10000;
+    border-radius: 100px;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background-color: var(--inverted-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.current {
+    position: absolute;
+    border-radius: 100px;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+    bottom: 40%;
+    background: #FFFFFF;
+}
+

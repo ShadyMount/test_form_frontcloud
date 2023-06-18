@@ -1,0 +1,35 @@
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-right: 8px;
+    color: var(--primary-color);
+}
+
+.input {
+    background: var(--input-bg);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    outline: none;
+    caret-color: var(--primary-color);
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 20px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.readonly {
+    background: #0000000a;
+}
+
+.tip {
+    color: black;
+    opacity: 0.48;
+    font-size: 12px;
+    line-height: 16px;
+}

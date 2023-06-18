@@ -1,0 +1,15 @@
+.ThirdRegisterTab {
+  width: 100%;
+  padding-top: 64px;
+}
+
+.modal {
+  @media (min-width: 1024px) {
+    width: 460px;
+  }
+  width: 100%;
+}
+
+.icon {
+  margin: 24px;
+}

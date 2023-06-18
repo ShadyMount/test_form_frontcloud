@@ -1,0 +1,70 @@
+@font-face {
+    font-display: swap;
+    font-family: "SB Sans Interface";
+    src: url("shared/assets/fonts/sb_sans_interface/SB_Sans_Interface.ttf"),
+    url("shared/assets/fonts/sb_sans_interface/37086b994764dba84b2ee0f1083bfeed.eot") format('opentype'),
+    url("shared/assets/fonts/sb_sans_interface/37086b994764dba84b2ee0f1083bfeed.woff2") format("woff2"),
+    url("shared/assets/fonts/sb_sans_interface/37086b994764dba84b2ee0f1083bfeed.woff") format("woff"),
+    url("shared/assets/fonts/sb_sans_interface/37086b994764dba84b2ee0f1083bfeed.ttf") format("truetype");
+}
+
+:root {
+    --font-family-main: SB Sans Interface;
+
+    // s
+    --font-size-s: 12px;
+    --font-line-s: 20px;
+    --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+    // m
+    --font-size-m: 14px;
+    --font-line-m: 20px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+    // l
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+    // xl
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+    // Размеры
+    --navbar-height: 50px;
+    --sidebar-width: 240px;
+    --sidebar-width-collapsed: 84px;
+
+    // Индексы
+    --modal-z-index: 10000;
+
+    // Цвета
+    --overlay-color: rgba(0 0 0 / 60%);
+    --red-light: #fd0808;
+    --red-dark: #a60000;
+
+
+    --bg-color: #FFFFFF;
+    --inverted-bg-color: #A6A6A6;
+    --primary-color: #333333;
+    --secondary-color: #5558FA;
+    --inverted-primary-color: #00000014;
+    --inverted-secondary-color: #6070bd;
+
+    // skeleton
+    --skeleton-color: #1515ad;
+    --skeleton-shadow: #2b2be8;
+
+    // code
+    --code-bg: #1212a1;
+
+    // input
+    --input-bg: #FFFFFF;
+
+    // article
+    --card-bd: #11119b;
+
+    // listbox-bg
+    --listbox-bg: #11119b;
+}

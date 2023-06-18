@@ -1,0 +1,30 @@
+.Advantages {
+
+}
+
+.inputWrapper {
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input {
+  padding: 12px;
+}
+
+.deleteButton {
+  border: none;
+  padding: 8px;
+}
+
+.createButton{
+  border: 2px solid var(--secondary-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+}

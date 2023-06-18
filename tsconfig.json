@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true, //подсветка any типов
+    "module": "ESNext",
+    "target": "ES2021", //в какую спецификацию компилируем es5/es6 для старых браузеров
+//    "lib": ["ES2017"],
+    "jsx": "react-jsx",
+    "allowJs": true,
+    // для абсолютного импорта
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
+
+    "moduleResolution": "node",
+    "esModuleInterop": true, // позволяет работать с модулями котрые используют  common js
+    "allowSyntheticDefaultImports": true, // позволяет использовать импорты без дефолта ( import * as SmPkg )
+//    "isolatedModules": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": [
+    "./config/jest/setupTests.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+  ]
+}
