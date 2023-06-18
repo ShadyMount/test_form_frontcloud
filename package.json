@@ -1,5 +1,6 @@
 {
   "name": "frontcloudcamp",
+  "homepage": "/",
   "version": "1.0.0",
   "description": "FrontCloudCamp test assignment",
   "main": "index.js",
