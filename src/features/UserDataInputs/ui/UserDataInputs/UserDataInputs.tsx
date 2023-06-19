@@ -25,7 +25,7 @@ export const UserDataInputs: FC<UserDataInputsProps> = ({className}) => {
     const navigate = useNavigate()
     const onStartHandler = () => {
         if(validPhoneLength && !error) {
-            navigate(AppRoutes.CREATE)
+            navigate(AppRoutes.CREATE, {})
         }
     }
 
