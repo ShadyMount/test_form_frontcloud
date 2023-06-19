@@ -10,8 +10,8 @@ import {
     getFormDataError,
     getFormDataIsLoading,
     getFormDataResponse
-} from "features/RegisterForm/model/selectors/registerFormSelectors";
-import {registerFormActions} from "features/RegisterForm/model/slices/registerFormSlice";
+} from "../../model/selectors/registerFormSelectors";
+import {registerFormActions} from "../../model/slices/registerFormSlice";
 import {Modal} from "shared/ui/Modal/Modal";
 import {Text} from "shared/ui/Text/Text";
 import {Icon} from "shared/ui/Icon/Icon";
@@ -21,7 +21,7 @@ import ErrorIcon from 'shared/assets/icons/Error.svg'
 import {Button, ThemeButton} from "shared/ui/Button/Button";
 import {useNavigate} from "react-router-dom";
 import {AppRoutes} from "shared/config/routeConfig/routeConfig";
-import {registerRequest} from "features/RegisterForm/model/services/registerRequest";
+import {registerRequest} from "../../model/services/registerRequest";
 import {Loader} from "shared/ui/Loader/Loader";
 
 interface ThirdRegisterTabProps {

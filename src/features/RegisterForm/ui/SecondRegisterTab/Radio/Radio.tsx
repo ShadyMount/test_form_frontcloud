@@ -1,9 +1,9 @@
 import {FC} from 'react';
 import {useAppDispatch} from "shared/lib/hooks/useAppDispatch";
-import {registerFormActions} from "features/RegisterForm/model/slices/registerFormSlice";
+import {registerFormActions} from "../../../model/slices/registerFormSlice";
 import {MyRadioGroup} from "shared/ui/MyRadioGroup/MyRadioGroup";
 import {useSelector} from "react-redux";
-import {getFormData} from "features/RegisterForm/model/selectors/registerFormSelectors";
+import {getFormData} from "../../../model/selectors/registerFormSelectors";
 
 interface RadioProps {
     className?: string;

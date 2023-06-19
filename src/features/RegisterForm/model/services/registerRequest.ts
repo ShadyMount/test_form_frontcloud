@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import {ThunkConfig} from 'app/providers/StoreProvider';
-import {getFormData} from "features/RegisterForm/model/selectors/registerFormSelectors";
+import {getFormData} from "../../model/selectors/registerFormSelectors";
 
 interface RegisterResponse {
     message: string,

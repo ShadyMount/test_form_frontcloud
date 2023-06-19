@@ -9,7 +9,7 @@ import {registerFormActions} from "features/RegisterForm/model/slices/registerFo
 import {Radio} from "features/RegisterForm/ui/SecondRegisterTab/Radio/Radio";
 import {useSelector} from "react-redux";
 import {getFormData} from "features/RegisterForm/model/selectors/registerFormSelectors";
-import {checkboxType} from "features/RegisterForm/model/types/registerForm";
+import {checkboxType} from "../../model/types/registerForm";
 import {Button} from "shared/ui/Button/Button";
 
 interface SecondRegisterTabProps {

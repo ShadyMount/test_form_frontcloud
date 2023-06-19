@@ -5,10 +5,10 @@ import {Input} from "shared/ui/Input/Input";
 import {HStack, VStack} from "shared/ui/Stack";
 import {useAppDispatch} from "shared/lib/hooks/useAppDispatch";
 import {useSelector} from "react-redux";
-import {getFormData} from "features/RegisterForm/model/selectors/registerFormSelectors";
-import {registerFormActions} from "features/RegisterForm/model/slices/registerFormSlice";
+import {getFormData} from "../../model/selectors/registerFormSelectors";
+import {registerFormActions} from "../../model/slices/registerFormSlice";
 import {ListBox, ListBoxItem} from "shared/ui/ListBox/ListBox";
-import {Sex} from "features/RegisterForm/model/types/registerForm";
+import {Sex} from "../../model/types/registerForm";
 import {Icon} from "shared/ui/Icon/Icon";
 import SelectIcon from 'shared/assets/icons/SelectDirect.svg'
 import {Button} from "shared/ui/Button/Button";

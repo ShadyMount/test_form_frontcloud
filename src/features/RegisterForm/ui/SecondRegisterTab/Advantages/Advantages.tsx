@@ -8,8 +8,8 @@ import {Icon} from "shared/ui/Icon/Icon";
 import DeleteIcon from "shared/assets/icons/Delete.svg";
 import {useAppDispatch} from "shared/lib/hooks/useAppDispatch";
 import {useSelector} from "react-redux";
-import {getFormData} from "features/RegisterForm/model/selectors/registerFormSelectors";
-import {registerFormActions} from "features/RegisterForm/model/slices/registerFormSlice";
+import {getFormData} from "../../../model/selectors/registerFormSelectors";
+import {registerFormActions} from "../../../model/slices/registerFormSlice";
 
 interface AdvantagesProps {
     className?: string;
